@@ -1,3 +1,4 @@
+import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 /**
@@ -5,8 +6,13 @@ import static org.junit.Assert.assertEquals;
  */
 public class mainTest extends main {
 
-    @org.junit.Test
+    @Test
     public void text() throws Exception {
         assertEquals(text("Hello"),"Hello");
+    }
+
+    @Test
+    public void number() throws Exception {
+        assertEquals(number(45),45);
     }
 }

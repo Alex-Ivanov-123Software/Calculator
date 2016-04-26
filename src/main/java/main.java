@@ -13,4 +13,11 @@ public class main {
         str=anyText;
         return str;
     }
+
+    public int number(int anyNumber)
+    {
+        int i=0;
+        i=anyNumber;
+        return i;
+    }
 }
