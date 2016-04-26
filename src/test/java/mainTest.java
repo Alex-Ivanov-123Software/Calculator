@@ -15,4 +15,9 @@ public class mainTest extends main {
     public void number() throws Exception {
         assertEquals(number(45),45);
     }
+
+    @Test
+    public void string() throws Exception {
+        assertEquals(string("Total"),"Total 55");
+    }
 }

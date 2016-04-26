@@ -20,4 +20,12 @@ public class main {
         i=anyNumber;
         return i;
     }
+
+    public String string(String anyText)
+    {
+        String str;
+        int i=55;
+        str=anyText+" "+i;
+        return str;
+    }
 }
