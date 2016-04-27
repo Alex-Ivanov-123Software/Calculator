@@ -24,7 +24,7 @@ public class main {
     public String string(String anyText)
     {
         String str;
-        int i=700;
+        int i=800;
         str=anyText+" "+i;
         return str;
     }
