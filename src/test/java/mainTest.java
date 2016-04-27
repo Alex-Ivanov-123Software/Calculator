@@ -18,6 +18,6 @@ public class mainTest extends main {
 
     @Test
     public void string() throws Exception {
-        assertEquals(string("Total"),"Total 7000");
+        assertEquals(string("Total"),"Total 8000");
     }
 }
