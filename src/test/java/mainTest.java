@@ -16,10 +16,10 @@ public class mainTest extends main {
         assertEquals(number(45),45);
     }
 
-//    @Test
-//    public void string_negative() throws Exception {
-//        assertEquals(string("Total"),"Total 8000");
-//    }
+    @Test
+    public void string_negative() throws Exception {
+        assertEquals(string("Total"),"Total 8000");
+    }
 
     @Test
     public void string_positive() throws Exception {
